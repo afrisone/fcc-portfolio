@@ -13,6 +13,7 @@ html, body {
   border-bottom-width: 5px;
   border-bottom-style: ridge;
   width: 100%;
+  position: fixed;
 }
 
 .nav-bar{
@@ -27,13 +28,25 @@ html, body {
   font-style: oblique;
   font-weight: bold;
 }
+.projects{
+  height: 100vh;
+  width: 100%;
+  background: url("https://static.pexels.com/photos/8263/pexels-photo.jpg") no-repeat fixed center;
+  background-size: 100%;
+
+  padding-top: 100px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 200px;
+  text-align: center;
+}
 
 .main-content{
-  height: auto;
+  height: 100vh;
   width: 100%;
-  background-image: url("http://i66.tinypic.com/9qefpg.jpg");
+  background: url("https://static.pexels.com/photos/1954/black-and-white-lights-abstract-curves.jpg") no-repeat fixed center;
   background-size: 100%;
-  background-style: fixed;
+
   padding-top: 100px;
   padding-left: 20%;
   padding-right: 20%;
