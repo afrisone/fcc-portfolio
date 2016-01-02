@@ -1,7 +1,9 @@
-body {
-  margin: 0px;
-  padding: 0px;
-  background-color: #D3D3D3;
+html, body {
+
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
 }
 
 .header-bar {
@@ -11,7 +13,6 @@ body {
   border-bottom-width: 5px;
   border-bottom-style: ridge;
   width: 100%;
-  
 }
 
 .nav-bar{
@@ -38,7 +39,7 @@ body {
   padding-right: 20%;
   padding-bottom: 200px;
   text-align: center;
-  
+
 }
 
 .divider{
@@ -58,6 +59,7 @@ body {
   font-size: 18px;
   font-family: fantasy, sans-serif;
   margin: 10px;
+
 }
 
 .social-media{
